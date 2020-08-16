@@ -17,7 +17,7 @@ Blogger は入力画面で見えるものが最終結果に近く書式設定も
 ### Blogger の例
 
 #### 入力
-![blogger HTMLコード](/assets/2020/08/13/blogger_garbage_tags.png){:width="400" style="float: bottom"}
+![blogger HTMLコード](/assets/2020/08/13/blogger_garbage_tags.png){:width="400"}
 
 #### 出力
 ![blogger Web表示イメージ](/assets/2020/08/13/blogger_screenshot.png){:width="500"}
