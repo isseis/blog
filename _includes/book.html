@@ -1,0 +1,8 @@
+{% if include.asin %}
+[![{{ include.title }} 書影](http://images-jp.amazon.com/images/P/{{include.asin}}.09.LZZZZZZZ.jpg){:width="200"}](https://www.amazon.co.jp/dp/{{ include.asin }})
+{% endif %}
+
+| 書名 | {% if include.asin %}[{{ include.title }}](https://www.amazon.co.jp/dp/{{ include.asin }}) {% else %} include.title {% endif %} |
+| 著者 | {{ include.author }} |
+| 出版社 | {{ include.publisher }} |
+| ISBN | {{ include.isbn }} |
