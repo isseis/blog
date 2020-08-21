@@ -202,7 +202,7 @@ HUAWEI はアメリカの輸出管理規制対象となっているため、
 
 スマートウォッチは通知を見られれば十分、
 複雑な処理はスマートフォンを取り出すという使い方であれば相性が良いです。
-バッテリー持ちが短くなっても豊富な機能が必要には [Galaxy Watch Active 2] の方が合っている。
+バッテリー持ちが短くなっても豊富な機能が必要には [Galaxy Watch Active 2] の方が合っています。
 
 ## HUAWEI WATCH GT2e を Android スマートフォンで使用する
 
@@ -232,7 +232,7 @@ Android スマートフォンでアプリケーションをインストールで
 標準では Google Play ストアと端末メーカーがプリインストールしたアプリストア、
 たとえば Samsung 端末であれば [Galaxy Store](https://www.galaxymobile.jp/apps/galaxy-store/) のみです。
 
-スマートフォンでの設定を変更して [Huawei モバイルサービス] と [Huawei Helth] を直接インストールすることもできますが、
+スマートフォンでの設定を変更して [Huawei モバイルサービス] と [Huawei Health] を直接インストールすることもできますが、
 インストール後にアップデートが配信されることを考えると、
 HUAWEI のアプリストア [HUAWEI AppGallery] をインストールして、
 そのアプリスタ経由で [Huawei モバイルサービス] と [Huawei Health] をインストールしてするのが賢明です。
@@ -243,7 +243,7 @@ Android 8 以降で外部（Google Play ストア以外）から提供される�
 参考: [Android O でもっと安全にアプリを入手できるようにする](https://developers-jp.googleblog.com/2017/09/making-it-safer-to-get-apps-on-android-o.html)
 
 したがって、
-たとえば Google Chrome を使って [HUAWEI ApppGallery] のアプリケーションをダウンロード・インストールする場合、
+たとえば Google Chrome を使って [HUAWEI AppGallery] のアプリケーションをダウンロード・インストールする場合、
 次のような手順になります。
 
 1. Google Chrome を許可リストに登録
@@ -290,9 +290,7 @@ GPS 内蔵で世界中どこでも正確、
 
 月齢が表示できる一方で、秒針や曜日の表示はなし。
 細かい時間を気にするような場面では使うなという意思を感じます。
-
-実用品というより、宝飾品ですね。
-
+見た目は美しいですが、実用品というより宝飾品ですね。
 
 [Wear OS]: https://wearos.google.com/
 
