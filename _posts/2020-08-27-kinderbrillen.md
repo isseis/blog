@@ -119,8 +119,8 @@ date:	2020-08-27 13:40:22 +0200
 * weitsichtig; 老眼の
 * die Fassung; メガネフレーム
 * das Atropin; アントロピン（近眼進行抑制点眼薬の有効成分）
-* das Einstärkenglass; 単焦点レンズ（通常は複数形 Einstärkengläser を使う）
-* das Gleitsichtglase; 累進レンズ（遠近両用）（通常は複数形 Gleitsichtgläser を使う）
+* das Einstärkenglas; 単焦点レンズ（通常は複数形 Einstärkengläser を使う）
+* das Gleitsichtglas; 累進レンズ（遠近両用）（通常は複数形 Gleitsichtgläser を使う）
 * die Beschichtung; コーティング
 * die Anti-Reflex Behandlung; 反射防止加工
 * die Entspiegelung; 反射防止
