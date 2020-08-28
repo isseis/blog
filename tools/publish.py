@@ -84,6 +84,13 @@ def publish_article(header, body, publish_time, outfile):
         f.write('---\n')
         f.write(body)
 
+
+def remove_draft(path):
+    if verbose:
+        print('Remove draft: ' + path)
+    os.remove(path)
+
+
 def main():
     global verbose
 
@@ -92,6 +99,8 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('-i', '--input', required=True,
             help="draft file name to publish")
+    parser.add_argument('-k', dest='keep_draft', action='store_true',
+            help="keep draft file")
     parser.add_argument('-o', '--outdir', default='_posts',
             help='directory to write published article [_posts]')
     parser.add_argument('-v', dest='verbose', action='store_true',
@@ -116,6 +125,8 @@ def main():
     header, body = read_draft(args.input)
     outfile = get_outfile_path(args.input, publish_time, args.outdir)
     publish_article(header, body, publish_time, outfile)
+    if not args.keep_draft:
+        remove_draft(args.input)
 
 
 if __name__ == "__main__":
