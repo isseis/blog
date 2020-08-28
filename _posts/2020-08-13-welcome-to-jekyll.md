@@ -57,7 +57,7 @@ Blogger は入力画面で見えるものが最終結果に近く書式設定も
 という手順にしたかったので、
 手元の PC に [Jekyll] をインストールしてマークダウン記法のファイルから HTML を作れるようにしてみました。
 
-使っている PC は Golgle Pixelbook (2017) で、
+使っている PC は Google Pixelbook (2017) で、
 スペックは次の通りです。
 
 | OS | ChromeOS |
