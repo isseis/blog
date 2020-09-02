@@ -17,16 +17,16 @@ __author__ = 'Issei Suzuki'
 __copyright__ = 'Copyright 2020, Issei Suzuki'
 __credits__ = ['Issei Suzuki']
 __license__ = 'MIT'
-__version__ = '0.0.1'
+__version__ = '0.0.2'
 __status__ = 'Prototype'
 
 import argparse
 import re
 import subprocess
 from typing import Any
+from typing import Iterator
 from typing import Optional
 from typing import Sequence
-from typing import Set
 
 verbose = 0
 
@@ -47,7 +47,7 @@ def cmd_output(*cmd: str, retcode: Optional[int] = 0, **kwargs: Any) -> str:
     return stdout
 
 
-def git_added_files() -> Set[str]:
+def git_added_files() -> Sequence[str]:
     cmd = ('git', 'diff', '--staged', '--name-only', '--diff-filter=A')
     files = cmd_output(*cmd).splitlines()
     if verbose > 0:
@@ -82,11 +82,11 @@ def is_jpeg_file(filename: str) -> bool:
     return f.endswith('.jpg') or f.endswith('.jpeg')
 
 
-def filter_jpeg_files(filenames: Sequence[str]) -> Sequence[str]:
+def filter_jpeg_files(filenames: Iterator[str]) -> Iterator[str]:
     return filter(is_jpeg_file, filenames)
 
 
-def find_geotagged_files(filenames: Sequence[str]) -> Sequence[str]:
+def find_geotagged_files(filenames: Iterator[str]) -> Iterator[str]:
     jpeg_files = list(filter_jpeg_files(filenames))
     if verbose > 0:
         print('Test targets (filtered):')
