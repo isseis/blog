@@ -118,7 +118,7 @@ HTTPS を使っている場合には URL が変わります。
 そこに移動して jekyll をセットアップします。
 
 ```
-% cd $(GIT_USER)
+% cd $(GIT_USER).github.io
 % bundle init
 % bundle add github-pages
 % bundle exec jekyll new . --force

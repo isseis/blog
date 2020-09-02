@@ -32,8 +32,8 @@ Webブラウザを起動して http://localhost:4000/ にアクセス。
 
 | directory | contents |
 | - | - |
-| _tools  | オフラインで使用するツール類 |
-| _tools/hooks  | Git のフックファイル（.git/hoooks にコピーして使用） |
-| _tools/test   | _tools 以下のプログラムのテスト関連ファイル |
+| \_tools  | オフラインで使用するツール類 |
+| \_tools/hooks  | Git のフックファイル（.git/hoooks にコピーして使用） |
+| \_tools/test   | \_tools 以下のプログラムのテスト関連ファイル |
 
 これ以外のディレクトについては [Jekyll](https://jekyllrb.com/) のドキュメントを参照。
