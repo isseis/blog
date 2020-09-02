@@ -1,6 +1,7 @@
-_site
 .sass-cache
 .jekyll-metadata
 .bundle
 _drafts
+_site
 __pycache__
+Gemfile.lock
