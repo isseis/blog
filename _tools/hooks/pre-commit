@@ -7,11 +7,12 @@ MASTER_FILE='_tools/hooks/pre-commit'
 exec 1>&2
 
 # Sanity check
-if [ -z "$GIT_DIR" ]; then
+if [ -z "$GIT_INDEX_FILE" ]; then
     echo "Don't run this script from the command line."
     exit 1
 fi
 
+export GIT_DIR=${GIT_DIR-`git rev-parse --git-dir`}
 # Update installed hook
 if [ -e $MASTER_FILE ]; then
     diff -s $MASTER_FILE "$GIT_DIR/hooks/pre-commit" > /dev/null
