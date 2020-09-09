@@ -33,8 +33,6 @@ markdown: kramdown
 theme: minima
 minima:
   date_format: "%Y年%_m月%_d日"
-disqus:
-  shortname: issei-blog
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
