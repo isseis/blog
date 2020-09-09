@@ -1,7 +1,5 @@
-<figure>
-    <a href="/assets/{{ include.path }}">
+<a href="/assets/{{ include.path }}">
         <img src="/assets/{{ include.path }}"
              {% if include.style %} style="{{ include.style }}"{% endif %}
              {% if include.caption %} alt="{{ include.caption }}" {% endif %} />
-    </a>
-</figure>                                                                  
+</a>
