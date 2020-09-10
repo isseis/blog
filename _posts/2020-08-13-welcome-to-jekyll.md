@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  ブロク作成環境を Jekyll に変更
 date:   2020-08-13 00:16:00 +0200
 tags:	blog

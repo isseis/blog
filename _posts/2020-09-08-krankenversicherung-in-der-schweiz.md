@@ -1,8 +1,8 @@
 ---
-layout: post
 title:  スイスの健康保険制度
 tags:	スイス生活
 date:	2020-09-08 17:06:05 +0200
+toc:    true
 ---
 {% include image.html
     path="2020/09/krankenversicherung-in-der-schweiz/hokensyou.png"
@@ -13,9 +13,6 @@ date:	2020-09-08 17:06:05 +0200
 ならびにスイスの医療システムに興味がある人向けに、
 被保険者の観点からスイスの健康保険制度について概説します。
 [2015年に書いたもの](https://blog.issei.org/2015/06/1.html) の改訂版。
-
-* TOC
-{:toc}
 
 スイスの医療費は世界でもトップクラスに高いですが、
 怪我や病気の際には必要な治療が受けられるよう、

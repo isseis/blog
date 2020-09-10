@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  ドイツ首相 電話会議議事録 2020-08-27
 tags:	外国語
 date:	2020-08-31 11:28:22 +0200
@@ -9,13 +8,10 @@ date:	2020-08-31 11:28:22 +0200
     .ver { color: green; }
     .obj { color: red; }
 </style>
-
 {% include image.html
     path="2020/08/telefonschaltkonferenz-der-bundeskanzlerin/Bundesadler_Bundesorgane.svg"
     style="max-width: 400px"
-    caption="Bundesadler" %}
-    
-
+    caption="Bundesadler" %}<br>
 ドイツで新型コロナウイルス対策の変更があり、
 電話会議の議事録が公開されたということで読んでみました。
 

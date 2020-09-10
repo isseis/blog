@@ -1,35 +1,17 @@
 ---
-layout: post
 title:  Android 11 公開
-tags:	blog
+tags:	プログラミング
 date:	2020-09-09 15:39:10 +0200
 ---
-## 散歩
-
-{% include image.html
-    path="2020/09/android11-release/20200909_104707.jpg"
-    style="max-width: 300px"
-    caption="" %}
-{% include image.html
-    path="2020/09/android11-release/20200909_100051.jpg"
-    style="max-width: 400px; vertical-align:top;"
-    caption="" %}
-
-風邪が治まってきたので、
-久しぶりに外出して、
-近所の森を散歩。
-すっかり秋の気配。
-
-## Android 11 公開
-
-[Android 11](https://www.android.com/android-11/) が公開されました。
+[Android 11](https://www.android.com/android-11/) が公開されましたが、
+私が関わった内容の一部を紹介。
 
 今回、
 私は新機能の Bubbles に関連する WindowManager 側の同期処理や、
 内部的な処理なのでユーザーから見た変更はないですが ActivityRecord と AppWindowToken 統合に伴ってグチャグチャになっていた visibility 関連の状態管理の整理、
 あとは AppTransition 関係で変更を入れてます。
 
-### ActivityRecord と AppWindowToken 統合
+## ActivityRecord と AppWindowToken 統合
 
 Android 10 ではクライアント側の Activity に対応してサーバー側で AppWindowToken というデータ構造が確保されていました。
 AppWindowToken は別のサーバー側のインスタンス ActivityRecord と 1:1 対応しており、
@@ -74,7 +56,7 @@ AppWindowToken と ActivityRecord を統合した結果、
 苦労の後が伺えると思います。
 一回壊して Revert されました。
 
-### AppTransition
+## AppTransition
 
 AppTransition は Activity の切り替えを管理してます。
 
@@ -103,7 +85,7 @@ Activity の切り替えは Activity を開始したり終了したりする API
 
 参考: [AppTarnsitionController の変更履歴](https://android.googlesource.com/platform/frameworks/base/+log/refs/heads/android11-release/services/core/java/com/android/server/wm/AppTransitionController.java)
 
-### Bubbles
+## Bubbles
 
 [Bubbles](https://developer.android.com/guide/topics/ui/bubbles) は
 [Notifications](https://developer.android.com/guide/topics/ui/notifiers/notifications) の拡張となってますが、

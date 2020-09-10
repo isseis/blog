@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Re: 語学の入門における語彙力とAnkiDroidについて"
 date:   2020-08-14 20:34:00 +0200
 tags:	外国語

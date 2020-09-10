@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  Google スプレッドシートで請求書作成
 tags:	プログラミング
 date:	2020-08-24 17:45:41 +0200
@@ -7,7 +6,6 @@ date:	2020-08-24 17:45:41 +0200
 <style type="text/css">
     table th { white-space: nowrap; }
 </style>
-
 私の子供は週に一度、
 日本語を学ぶための日本語学校に通っています。
 義務教育ではないので、学校運営に関わる費用は保護者負担で、

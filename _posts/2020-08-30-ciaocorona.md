@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  Ciao Corona
 tags:	スイス生活
 date:	2020-08-30 12:27:34 +0200
@@ -7,12 +6,12 @@ date:	2020-08-30 12:27:34 +0200
 {% include image.html
     path="2020/08/ciaocorona/ciaocorona-logo.png"
     style="max-width: 400px"
-    caption="Ciao Corona ロゴ" %}
+    caption="Ciao Corona ロゴ" %}<br>
+スイスのチューリッヒ州では
+[Ciao Corona](https://www.ciao-corona.ch/) （チャオ・コロナ）というプロジェクトが進められています。
 
 ## Ciao Corona プロジェクトとは
 
-スイスのチューリッヒ州では
-[Ciao Corona](https://www.ciao-corona.ch/) （チャオ・コロナ）というプロジェクトが進められています。
 チューリッヒ大学の研究者グループが中心となって進めているプロジェクトで、
 幼稚園児から青少年期の人間が
 
