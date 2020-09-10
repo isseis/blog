@@ -6,7 +6,7 @@
 # - install new hook script from _tools/hooks if updated
 #
 # Globals:
-#   GIT_INDEX_FILE
+#   GIT_EXEC_PATH
 #   GIT_DIR
 # Arguments:
 #   hook_type such as pre-commit, pre-push
@@ -21,7 +21,7 @@ hook_init() {
   exec 1>&2
 
   # Sanity check
-  if [ -z "$GIT_INDEX_FILE" ]; then
+  if [ -z "$GIT_EXEC_PATH" ]; then
     echo "Don't run this script from the command line."
     exit 1
   fi
