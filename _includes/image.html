@@ -1,6 +1,4 @@
-<a href="/assets/{{ include.path }}">
-        <img src="/assets/{{ include.path }}"
-             {% if include.style %} style="{{ include.style }}" {%- endif -%}
-             {% if include.caption %} alt="{{ include.caption }}" {%- endif -%}
-             />
-</a>
+<img src="/assets/{{ include.path }}"
+    {% if include.style %} style="{{ include.style }}" {%- endif -%}
+    {% if include.caption %} alt="{{ include.caption }}" {%- endif -%}
+    />
