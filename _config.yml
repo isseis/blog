@@ -91,7 +91,7 @@ analytics:
 
 # Site Author
 author:
-  name             :
+  name             : "鈴木一生"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : ""
   location         :
