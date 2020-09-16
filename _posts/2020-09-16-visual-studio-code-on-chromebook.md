@@ -20,7 +20,7 @@ Chrome OS でも [Linux 向けのプログラムを実行することが可能](
 
 そもそも、
 どうやって Linux の GUI アプリケーションを Chrome OS で表示しているのかが気になって調べたところ、
-Sommeilier  + Wayland を使っている模様（[参考](https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/vm_tools/sommelier/)）。
+Sommelier  + Wayland を使っている模様（[参考](https://chromium.googlesource.com/chromiumos/platform2/+/HEAD/vm_tools/sommelier/)）。
 
 Wayland は抽象化された compositor インターフェースで、
 
