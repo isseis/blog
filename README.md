@@ -2,7 +2,7 @@
 
 ## Contents
 
-GitHub ページで公開している [ブログ](https://blog2.issei.org/) のテキスト、
+[Netlify](https://www.netlify.com/) で公開している [ブログ](https://blog2.issei.org/) のテキスト、
 ならびに関連ツール。
 
 ## Install
@@ -15,8 +15,8 @@ GitHub ページで公開している [ブログ](https://blog2.issei.org/) の�
 ### Retrieve the repository
 
 ```
-% git clone git@github.com:isseis/isseis.github.io
-% cd isseis.github.io
+% git clone git@github.com:isseis/blog.git
+% cd blog
 % cp _tools/hooks/* .git/hooks
 % bundle update
 ```
