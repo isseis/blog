@@ -11,7 +11,7 @@ source "https://rubygems.org"
 #
 # To upgrade, run `bundle update`.
 
-gem "jekyll", "~> 3.9.0"
+gem "jekyll", "~> 4.1.1"
 gem "minimal-mistakes-jekyll"
 
 # The following plugins are automatically loaded by the theme-gem:

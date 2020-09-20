@@ -6,4 +6,4 @@ if [ -x /usr/bin/bundle2.7 ]; then
 fi
 
 # Start Jekyll server
-exec ${bundle_cmd} exec jekyll s --drafts
+exec ${bundle_cmd} exec jekyll s --drafts --livereload
