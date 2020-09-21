@@ -1,7 +1,8 @@
-.sass-cache
+.bundle
+.firebase
 .jekyll-cache
 .jekyll-metadata
-.bundle
+.sass-cache
 _drafts
 _site
 __pycache__
