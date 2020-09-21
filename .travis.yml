@@ -1,0 +1,28 @@
+dist: focal
+language: ruby
+rvm: 2.7.1
+
+# Assume bundler is being used, therefore
+# the `install` step will run `bundle install` by default.
+script: bundle exec jekyll build
+
+# branch whitelist, only for GitHub Pages
+branches:
+  only:
+  - master
+
+env:
+  global:
+  - JEKYLL_ENV=production
+
+cache: bundler # caching bundler gem packages will speed up build
+
+after_success:
+- firebase deploy --token "1//099Jdnl6T7cmGCgYIARAAGAkSNwF-L9Ir7iz0iR4o74zSAq2lt15m1Hlq5aaZmEPnaSfmAZ7iFsutjw9b_LD08WOb2q2fAph4stA"
+
+notifications:
+  email:
+    recipients:
+    - issei+blog.travisci@issei.org    
+    on_success: always
+    on_failure: always
