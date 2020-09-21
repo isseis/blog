@@ -154,6 +154,8 @@ exclude:
   - assets/js/plugins
   - assets/js/_main.js
   - assets/js/vendor
+  - firebase.json
+  - firebase-debug.log
   - Capfile
   - CHANGELOG
   - config
