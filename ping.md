@@ -1,7 +1,7 @@
 ---
 layout: single
 title: このページについて
-permalink: /test/
+permalink: /ping/
 ---
 
-CI/CD test @20200922 0131
+CI/CD test @20200922 0150
