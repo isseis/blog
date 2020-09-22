@@ -4,4 +4,4 @@ title: このページについて
 permalink: /ping/
 ---
 
-CI/CD test @20200922 0150
+CI/CD test @20200922 1106

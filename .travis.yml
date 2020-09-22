@@ -24,8 +24,8 @@ deploy:
   skip_cleanup: true
 
 notifications:
-  email:
-    recipients:
-    - issei+blog.travisci@issei.org    
+  slack:
     on_success: always
     on_failure: always
+    secure: "NAKhI4UZ5uf+kjNocMBtvPdPex/tgkfHe18Tm/b9XLyJnJErY1mA6pgO+nG3BrqyuQ5NazyJyLlzc/offhUCC8F+ouKbHx+m7xfR/9o/xY/QhTYpWmEmTgF4rpe4R4aivQMPRmQeXYUoH4TH271zcM5YTFh2cmu6z++lFK56K/8SmukDwDxCU7pGDubXDYadxTUt6jlmnaHdUd4Cukpz7nEcx4QiMU9qAxH9+MFzHJGfqTk5V9wwjetuorqdl3Ib678/EwppSM5FBgHHvkpPItWF+4zinqxOK7bk/7He0C0tXoty1i3uoLlCelr4qsNvEaHWLiCx6ODMdv9VQViwZ2w/GKMMY0gdXC4fWv9qQ9PfdLxYYjitu/4SykRb/htlMlVn3MRReZqVn/UseF0XK/JHxdteAoglTUCDVw7VbLDhzYYG/yPgRGZfZTjlquDWP2FaAl078IhK5jRGHk5yurn2eSe11wwOCNZofEBpzVnXsAvVnGS/+qOWfmst6KvBXfnBNAc+y3fYsYagHxwm4yD+dlmd+AH5kNNwgjeZAOB7kMxWLJVKLRR6X4dRQgtNVpCqpNBR0v2aIbPu1GwEh7CODgoKq3pVN4dSP96GCUWTpiC3v2W5LM2LkIfBnMa/DOH0Q4NJDhptqYwegONww7ybMJEtiiyh6go+BmMqmTw="
+  email: false
