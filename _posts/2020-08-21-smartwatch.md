@@ -282,7 +282,7 @@ GPS 内蔵で世界中どこでも正確、
 理系心をくすぐる科学技術の塊としても、
 純粋に時間を知る道具としても優れた一品だと思います。
 
-### [ SLIMLINE MOONPHASE MANUFACTURE FC-705N4S6](https://frederiqueconstant.com/de/watch-finder/manufacture-de/slimline-moonphase-fc-705n4s6/)
+### [ SLIMLINE MOONPHASE MANUFACTURE FC-705N4S6](https://frederiqueconstant.com/collections/slimline-moonphase/products/slimline-moonphase-fc-705n4s6)
 
 スイスのジュネーブ州郊外に本社がある Frédérique Constant による機械式時計。
 創業は1988年ですが、時計業界だと「新興メーカー」扱い。
