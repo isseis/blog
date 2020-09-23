@@ -4,7 +4,9 @@ rvm: 2.7.1
 
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
-script: bundle exec jekyll build
+script:
+- bundle exec jekyll build
+- bundle exec htmlproofer ./_site --disable-external --empty-alt-ignore --allow-hash-href
 
 # branch whitelist, only for GitHub Pages
 branches:
@@ -14,6 +16,7 @@ branches:
 env:
   global:
   - JEKYLL_ENV=production
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
 
 cache: bundler # caching bundler gem packages will speed up build
 
