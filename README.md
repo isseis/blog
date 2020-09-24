@@ -2,7 +2,7 @@
 
 ## Contents
 
-[Netlify](https://www.netlify.com/) で公開している [ブログ](https://blog2.issei.org/) のテキスト、
+[ブログ](https://blog2.issei.org/) のテキスト、
 ならびに関連ツール。
 
 ## Install
