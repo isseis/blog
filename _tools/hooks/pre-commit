@@ -6,5 +6,5 @@ hook_init 'pre-commit'
 
 # Run actual hook script
 _tools/check_geotag.py || exit 1
-_tools/test.sh || exit 1
+make test || exit 1
 exit 0
