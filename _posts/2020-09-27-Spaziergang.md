@@ -14,8 +14,10 @@ date:	2020-09-27 17:58:05 +0200
 日本だと紫陽花は梅雨時の花ですが、
 スイスだと冬以外はずっと見かけます。
 
-![Kirche in Rüschlikon](/assets/2020/09/27/Kirche.jpg)
-
+{% include image.html
+    path="2020/09/27/Kirche.jpg"
+    caption="鐘楼 / Glockentürm"
+    caption_on_image=true %}
 
 An diesem Wochenende war das Wetter leider schlecht.
 Als es nicht regnete, ging ich in meiner Nachbarschaft spazieren.

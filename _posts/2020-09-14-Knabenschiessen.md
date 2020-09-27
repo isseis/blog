@@ -15,7 +15,8 @@ date:	2020-09-14 21:07:30 +0200
 
 {% include image.html
     path="2020/09/Knabenschiessen/Kaeserstatt.jpg"
-    caption="" %}
+    caption="Auf dem Weg nach Käserstatt"
+    caption_on_image=true %}
 
 なお Knabenschiessen は17世紀から続く祭典なので当時の社会情勢を反映して「少年」(Knaben)と名前がついていますが、
 今は性別を問わず参加可能で、

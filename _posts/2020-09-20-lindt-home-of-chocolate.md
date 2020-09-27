@@ -15,4 +15,7 @@ date:	2020-09-20 23:43:19 +0200
 定番の板チョコやキャンディー状のチョコレート以外に生チョコレートも売っていたので買ってみましたが、
 これは [Läderach](https://www.laderach.com/) の方が好み。
 
-![リンツチョコレート](/assets/2020/09/lindt-home-of-chocolate/chocolate.jpg)
+
+{% include image.html
+    path="2020/09/lindt-home-of-chocolate/chocolate.jpg"
+    caption="リンツチョコレート" %}
