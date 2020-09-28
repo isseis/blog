@@ -22,7 +22,7 @@ Vor den Ferien wird die Lernzielkontrolle durchgeführt.
 Wenn man die Zielpunktzahl bei der Prüfung nicht erreichen kann, muss man den Test wiederholen.
 
 Mein älterer Sohn in der 3. Klasse fiel die Prüfung von Deutsch durch.
-Ich hatte nicht gedacht, dass er Deutsch so schwerfiel, da las ich die Prüfungaufgabe mit him zusammen.
+Ich hatte nicht gedacht, dass ihm Deutsch so schwerfiel, da las ich die Prüfungaufgabe mit him zusammen.
 Die Aufgabe lautet, alle Nomina im Text einzukreisen.
 Nach ein paar Minuten hat es sich herausgestellt, dass er missverstand hatte, dass Eigennamen wie Vornamen nicht zu Nomina gehören.
 
