@@ -1,4 +1,4 @@
-.PHONY: biuld clean test
+.PHONY: biuld clean start fulltest test tools tooltest
 
 build:
 	bundle exec jekyll build
@@ -27,4 +27,4 @@ toolstest:
 	$(MAKE) -C _tools/test test
 
 clean:
-	-rm -rf _site
+	-rm -rf _site .jekyll-cache .jekyll-metadata
