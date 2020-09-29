@@ -1,7 +1,7 @@
 .PHONY: biuld clean start fulltest test tools tooltest
 
 build:
-	bundle exec jekyll build
+	bundle exec jekyll build --drafts
 
 start:
 	bundle exec jekyll s --drafts --livereload
