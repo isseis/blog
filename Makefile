@@ -6,7 +6,8 @@ build:
 start:
 	bundle exec jekyll s --drafts --livereload
 
-test: build
+test: clean
+	bundle exec jekyll build
 	bundle exec htmlproofer ./_site \
 		--disable-external --empty-alt-ignore --allow-hash-href
 
