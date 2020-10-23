@@ -146,7 +146,6 @@ after_footer_scripts:
 include:
   - .htaccess
   - _pages
-  - node_modules/medium-zoom/dist/medium-zoom.min.js
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"

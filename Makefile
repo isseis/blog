@@ -1,6 +1,9 @@
-.PHONY: biuld clean start fulltest test tools tooltest
+.PHONY: biuld clean start fulltest js test tools tooltest
 
-build:
+INSTALL_CMD=	/usr/bin/install
+INSTALL_DATA=	$(INSTALL_CMD) -m644
+
+build: js
 	bundle exec jekyll build --drafts
 
 start:
@@ -20,6 +23,11 @@ full:
 	$(MAKE) tools
 	$(MAKE) build
 	$(MAKE) toolstest test
+
+js: assets/js/medium-zoom.min.js
+
+assets/js/medium-zoom.min.js: node_modules/medium-zoom/dist/medium-zoom.min.js
+	$(INSTALL_DATA) $< $@
 
 # _tools
 tools:
