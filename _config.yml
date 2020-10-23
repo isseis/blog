@@ -138,11 +138,15 @@ footer:
       icon: "fab fa-fw fa-instagram"
       # url:
 
+# Scripts
+after_footer_scripts:
+  - /assets/js/medium-zoom-exec.js
 
 # Reading Files
 include:
   - .htaccess
   - _pages
+  - node_modules/medium-zoom/dist/medium-zoom.min.js
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -176,9 +180,6 @@ exclude:
 keep_files:
   - .git
   - .svn
-after_footer_scripts:
-  - /assets/js/lightbox-plus-jquery.js
-  - /assets/js/lightbox-conf.js
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
