@@ -176,9 +176,6 @@ exclude:
 keep_files:
   - .git
   - .svn
-after_footer_scripts:
-  - /assets/js/lightbox-plus-jquery.js
-  - /assets/js/lightbox-conf.js
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
