@@ -138,11 +138,15 @@ footer:
       icon: "fab fa-fw fa-instagram"
       # url:
 
+# Scripts
+after_footer_scripts:
+  - /assets/js/medium-zoom-exec.js
 
 # Reading Files
 include:
   - .htaccess
   - _pages
+  - node_modules/medium-zoom/dist/medium-zoom.min.js
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"

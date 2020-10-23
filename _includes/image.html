@@ -1,7 +1,8 @@
 <div style="position: relative; margin-bottom: 2em;">
     <img src="/assets/{{ include.path }}"
-    {% if include.style %} style="{{ include.style }}" {%- endif -%}
-    {% if include.caption %} alt="{{ include.caption }}" {%- endif -%}
+	data-zoomable="true"
+	{% if include.style %} style="{{ include.style }}" {%- endif -%}
+	{% if include.caption %} alt="{{ include.caption }}" {%- endif -%}
     />
     {%- if include.caption and include.caption_on_image -%}
     <span style="position:absolute; bottom: 0; right: 0; padding: 2px 5px 2px 5px; color: #fff; background: #000; opacity: 0.5; font-family: Georgia,Times,serif; font-size: 0.6875em;">
