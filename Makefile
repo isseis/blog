@@ -6,7 +6,7 @@ INSTALL_DATA=	$(INSTALL_CMD) -m644
 build: js
 	bundle exec jekyll build --drafts
 
-start:
+start: clean
 	bundle exec jekyll s --drafts --livereload
 
 test: clean
