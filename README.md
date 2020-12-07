@@ -3,7 +3,10 @@
 ## Contents
 
 [ブログ](https://blog2.issei.org/) のテキスト、
-ならびに関連ツール。
+ならびに関連ツール跡地。
+
+2020年12月にサイト構築ツールを [Hugo](https://gohugo.io/) に変更し、
+リポジトリを https://github.com/isseis/blog-hugo に移動しました。
 
 ## Install
 
